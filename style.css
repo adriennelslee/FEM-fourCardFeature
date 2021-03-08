@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1{
+    font-weight: 400;
+    color: rgb(0,0,0,0.5);
+}
+
+.boldTitle{
+    font-weight: 800;
+    color: black;
+}
+
+.container{
+    display: grid;
+    font-size: 12px;
+}
+
+.containerN{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 0/3;        
+    border-top: 3px solid hsl(0, 78%, 62%);
+    background-color: white;
+    padding: 35px;
+    margin: 15px 5px 15px 5px;
+}
+
+.containerE{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/7;
+    border-top: 3px solid green;
+    background-color: white;
+    padding: 35px;
+    margin: 15px 5px 15px 15px;
+}
+
+.containerS{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 8/12;
+    border-top: 3px solid yellow;
+    background-color: white;
+    padding: 35px;
+    margin: 15px 5px 15px 5px;
+}
+
+.containerW{
+    display: grid;
+    grid-column: 5/6;
+    grid-row: 3/7;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    background-color: white;
+    padding: 35px;
+    margin: 15px 15px 15px 5px;
+}
+
+img{
+    float: right;
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 1024px) {
+    .heading-primary {
+      font-size: 200%;
+    }
+    .box {
+      padding: 20px;
+      width: 300px;
+      height: 220px;
+    }
+    .icon-box {
+      margin-top: 10%;
+    }
+    .icon {
+      height: 50px;
+    }
+  }
+  @media only screen and (max-width: 885px) {
+    .heading-primary {
+      font-size: 180%;
+    }
+    .heading-text {
+      font-size: 95%;
+    }
+    .content-box {
+      flex-direction: column;
+    }
+    .box {
+      margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 737px) {
+    .heading-text {
+      max-width: 100%;
+      margin-left: 0;
+    }
+  }
+  @media only screen and (max-width: 516px) {
+    .heading-text {
+      max-width: 60%;
+      margin-left: 20%;
+    }
+  }
+  @media only screen and (max-width: 434px) {
+    .heading-text {
+      max-width: 70%;
+      margin-left: 15%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .heading-primary {
+      font-size: 120%;
+    }
+    .heading-text {
+      font-size: 90%;
+      max-width: 70%;
+      margin-left: 10%;
+    }
+  }
